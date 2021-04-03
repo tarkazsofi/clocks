@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80% 20%;
+  gap: 0px 0px;
+  grid-template-areas:
+    "top"
+    "bottom";
+}
+.top {
+  grid-area: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.analogClock {
+  height: 80%;
+  aspect-ratio: 1 / 1;
+}
+.bottom {
+  grid-area: bottom;
+}

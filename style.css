@@ -106,8 +106,8 @@ body {
   width: 4px;
   background-color: red;
   border-radius: 2px;
-  transform: rotate(90deg);
 }
+
 .bottom {
   grid-area: bottom;
   display: flex;
